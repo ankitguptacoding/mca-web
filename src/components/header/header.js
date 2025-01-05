@@ -91,7 +91,7 @@ const SearchBox = styled.input`
   border-radius: 30px;
   outline: none;
   width: 250px;
-
+  background: inherit;
   &:focus {
     border-color: #1e90ff;
   }
