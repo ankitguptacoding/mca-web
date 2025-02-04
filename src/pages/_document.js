@@ -1,3 +1,4 @@
+// pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
@@ -31,25 +32,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>  <meta charSet="utf-8" />
-
-          <link
-            href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-          />
-          {/* Google Tag (gtag.js) */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-F064ZBEVCS"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-F064ZBEVCS');
-            `,
-            }}
-          />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
