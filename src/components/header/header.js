@@ -26,7 +26,7 @@ const NavbarContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px 8%;
 `;
 
 const Navbar = styled.nav`
@@ -130,7 +130,7 @@ export default function Header() {
       <NavbarContainer>
         {/* Logo */}
         <LogoContainer>
-          <NextImage src={logo} alt="Kent Logo" width={100} height={50} />
+          <NextImage src='/assets/icons/black-new.png' alt="Kent Logo" width={100} height={100} />
         </LogoContainer>
 
         {/* Navigation Menu */}

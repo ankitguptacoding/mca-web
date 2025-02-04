@@ -1,17 +1,5 @@
 
 import React from 'react';
-
-import { Row } from 'simple-flexbox';
-
-
-
-
-
-
-
-import { Heading, Subheading } from './homeStyle';
-
-import { useRouter } from 'next/router';
 import { Image } from './styled';
 import styled from 'styled-components';
 import { Box, Grid2 } from '@mui/material';
@@ -119,15 +107,7 @@ export const SocialMediaIcon = styled.img`
       
       `
 function Footer() {
-
-
-
-
-
-
-
-
-  return (
+return (
     <>
       <FooterContainer>
         <Grid2 container spacing={0}>
@@ -140,12 +120,6 @@ function Footer() {
           </Grid2>
 
           <Grid2 size={2.5}>
-
-        
-
-
-
-
             <FooterText xsfont={"14px"}><Link href="/faq"  >About Us </Link></FooterText>
             <FooterText xsfont={"14px"}><Link href="/faq"  >Contact Us </Link></FooterText>
             <FooterText xsfont={"14px"}><Link href="/faq"  >  Shipping Policy</Link></FooterText>
@@ -193,7 +167,7 @@ function Footer() {
         <Grid2 container spacing={7} alignItems='center'>
           {/* First Two Columns in One Row */}
           <Grid2 item size={3}>
-            <Image src='/assets/icons/black-new.png' width='25%'  />
+            <Image src='/assets/icons/black-new.png' width='25%'   />
           </Grid2>
           <Grid2 size={6}>
       

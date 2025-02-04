@@ -4,7 +4,7 @@ import { useState } from "react";
 import styled from "styled-components";
 
 const HeaderContainer = styled.header`
-  background-color: #1f387c;
+      background:  ${props => props.background || "rgb(11 63 127)"} ;
   color: #000;
   transition: all 0.3s ease;
   display: flex;
